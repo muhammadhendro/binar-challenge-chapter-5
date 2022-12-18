@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binar Challenge Chapter 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark nav-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">LOGO</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#main-section">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galery">GALERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">FEATURES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#system">SYSTEM</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">SIGN UP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--  -->
+
+    <section class="main-section" id="main-section">
+      <h1 class="main-section-title">PLAY TRADITIONAL GAME</h1>
+      <h5 class="main-section-p">Experience new traditional game play</h5>
+      <a href="/game" class="btn btn-warning btn-lg">PLAY NOW</a>
+      <div class="scroll-down">
+        <p class="scroll-down-text">THE STORY</p>
+        <a href="#second-section"
+          ><img class="scroll-down-icon" src="assets/scroll-down.svg" alt=""
+        /></a>
+      </div>
+    </section>
+
+    <section class="galery" id="galery">
+      <div class="galery-left">
+        <h5 class="galery-title">What's so special?</h5>
+        <h1 class="galery-p">THE GAMES</h1>
+      </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide galery-right"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/rockpaperstrategy-1600.jpg"
+              class="d-block w-50"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/rockpaperstrategy-1600.jpg"
+              class="d-block w-50"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/rockpaperstrategy-1600.jpg"
+              class="d-block w-50"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="features" id="features">
+      <div class="container">
+        <div class="row justify-content-end features-contents">
+          <div class="col-4 features-info mb-2">
+            <h3 class="features-info-title">What's so special?</h3>
+            <h1 class="features-info-content">FEATURES</h1>
+          </div>
+        </div>
+        <div class="row justify-content-end features-timeline">
+          <div class="col-5 features-timeline-content">
+            <div class="row timeline">
+              <div class="col-3 pt-2 mt-1 timeline-dot">
+                <img src="./assets/ellipse.svg" />
+              </div>
+              <div class="col tl-info">
+                <h2 class="tl-info-title">TRADITIONAL GAMES</h2>
+                <p class="tl-info-content">
+                  If you miss your childhood, we provide many traditional games
+                  here
+                </p>
+              </div>
+            </div>
+            <div class="row timeline">
+              <div class="col-3 pt-2 mt-1 timeline-dot">
+                <img src="./assets/ellipse-outline.svg" />
+              </div>
+              <div class="col tl-info">
+                <h2 class="tl-info-title">GAME SUIT</h2>
+              </div>
+            </div>
+            <div class="row timeline">
+              <div class="col-3 pt-2 mt-1 timeline-dot">
+                <img src="./assets/ellipse-outline.svg" />
+              </div>
+              <div class="col tl-info">
+                <h2 class="tl-info-title">TBD</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="system" id="system">
+      <div class="container">
+        <div class="req-p">
+          <p>Can My Computer Run This Game?</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="rq-table-title">SYSTEM REQUIREMENTS</h1>
+
+            <!-- Table -->
+            <table class="table table-bordered table-content-sys">
+              <tbody>
+                <tr>
+                  <td>
+                    <h2 class="requirements-info">OS:</h2>
+                    <p class="requirements-info-content">
+                      Windows 7 64-bit only<br />(No OSX support at this time)
+                    </p>
+                  </td>
+                  <td>
+                    <h2 class="requirements-info">PROCESOR:</h2>
+                    <p class="requirements-info-content">
+                      Intel Core 2 Duo @2.4GHz or AMD Athlon X2 @ 2.8GHz
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2 class="requirements-info">MEMORY:</h2>
+                    <p class="requirements-info-content">4 GB RAM</p>
+                  </td>
+                  <td>
+                    <h2 class="requirements-info">STORAGE:</h2>
+                    <p class="requirements-info-content">
+                      8 GB available space
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <h2 class="requirements-info">GRAPHIC:</h2>
+                    <p class="requirements-info-content">
+                      NVIDIA GeForce GTX 660 2GB or<br />AMD Radeon HD 7850 2GB
+                      DirectX11 (Shader Model S)
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <!-- End of table -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="quotes" id="quotes">
+      <h1 class="quotes-title">PLAY TRADITIONAL GAME</h1>
+      <h5 class="quotes-p">Experience new traditional game play</h5>
+      <a href="#" class="btn btn-warning btn-lg">PLAY NOW</a>
+    </section>
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl">
+            <figure>
+              <img src="./assets/skull.png" />
+            </figure>
+          </div>
+          <div class="col-xl">
+            <div class="footer-content-right">
+              <h3>Want to stay in touch?</h3>
+              <h1>NEWSLETTER SUBSCRIBE</h1>
+              <p>
+                In order to start receiving our news, all you have to do is
+                enter your email address. Everything else will be taken care of
+                by us. We will send you emails containing information about
+                game. We don’t spam.
+              </p>
+            </div>
+            <div class="footer-content-left">
+              <form class="form row">
+                <div class="form-group col-md-7">
+                  <input
+                    type="text"
+                    class="form-control mb-2 mr-sm-2 pt-3 bg-dark"
+                    id="email"
+                    placeholder="youremail@binar.co.id"
+                  />
+                  <button class="btn btn-warning w-100">Subscribe Now</button>
+                </div>
+
+                <div class="col-md-5 text-left mt-5"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-07">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <h2 class="footer-heading"></h2>
+            <p class="menu-footer">
+              <a href="#">MAIN</a>
+              <a href="#">ABOUT</a>
+              <a href="#">GAME FEATURES</a>
+              <a href="#">SYSTEM REQUIREMENT</a>
+              <a href="#">QUOTES</a>
+            </p>
+          </div>
+          <div class="d-inline">
+            <a href="#"><span>PRIVACY POLICY </span></a>|
+            <a href="#"><span>TERM SERVICES </span></a>|
+            <a href="#"><span>CODE OF CODUNCT</span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

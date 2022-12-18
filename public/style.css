@@ -1,0 +1,90 @@
+body {
+  background-color: #9c835f;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.header a {
+  text-decoration: none;
+}
+
+.header h1 {
+  color: brown;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+.title {
+  color: #f9b23d;
+  margin-left: 50px;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.game .player img,
+.com img {
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+  align-self: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.player,
+.com {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 2;
+}
+
+#vs {
+  align-self: center;
+}
+#vs h2 {
+  color: red;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.result-reset {
+  color: red;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+.refresh img {
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  cursor: pointer;
+}
+
+.player-select {
+  background-color: #c4c4c4;
+  border-radius: 20%;
+}
+
+.com-select {
+  background-color: silver;
+  border-radius: 20%;
+}
+
+.result {
+  font-family: Open Sans;
+  align-self: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: green;
+  border-radius: 10px;
+  padding: 20px;
+  rotate: -25deg;
+}

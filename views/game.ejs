@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <a href="/"><h1 class="back"><</h1></a>
+      <img src="assets/logo.png" alt="" />
+      <h1 class="title">ROCK PAPER SCISSOR</h1>
+    </div>
+    <div class="game">
+      <div class="player">
+        <h2 class="">PLAYER</h2>
+        <img
+          src="assets/batu.png"
+          alt=""
+          id="player-batu"
+          onclick="pick('player-batu')"
+        />
+        <img
+          src="assets/kertas.png"
+          alt=""
+          id="player-kertas"
+          onclick="pick('player-kertas')"
+        />
+        <img
+          src="assets/gunting.png"
+          alt=""
+          id="player-gunting"
+          onclick="pick('player-gunting')"
+        />
+      </div>
+      <div id="vs"><h2>VS</h2></div>
+      <div class="com">
+        <h2>COM</h2>
+        <img src="assets/batu.png" alt="" id="com-batu" />
+        <img src="assets/kertas.png" alt="" id="com-kertas" />
+        <img src="assets/gunting.png" alt="" id="com-gunting" />
+      </div>
+    </div>
+    <div class="refresh">
+      <img src="assets/refresh.png" alt="" onclick="again()" />
+    </div>
+    <script src="javascripts/script.js"></script>
+  </body>
+</html>

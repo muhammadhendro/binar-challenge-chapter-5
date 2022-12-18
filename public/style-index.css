@@ -1,0 +1,133 @@
+.nav-item .nav-link {
+  color: white;
+  font-weight: normal;
+  margin-right: 1rem;
+}
+
+.nav {
+}
+
+.main-section {
+  background-image: url("assets/main-bg.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.main-section-title {
+  font-size: 72px;
+
+  font-weight: bold;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.galery {
+  background-image: url("assets/the-games-bg.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.galery-left {
+  margin-left: 200px;
+}
+
+.galery-right {
+  margin-left: 200;
+}
+
+.features {
+  background-image: url("assets/features.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.system {
+  background-image: url("assets/requirements.png");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.req-p {
+  text-align: center;
+}
+
+.requirements-info {
+  color: orange;
+}
+
+.requirements-info-content {
+  color: white;
+}
+
+.tl-info-title {
+  color: orange;
+}
+
+.quotes {
+  background-image: url("assets/top-score-bg.png");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer {
+  background-image: url("assets/newsletter.png");
+  height: 100vh;
+  background-size: 100% 100%;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.footer-07 {
+  background-color: black;
+}
+
+.menu-footer,
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.d-inline,
+a {
+  text-align: end;
+}
